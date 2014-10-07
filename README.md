@@ -1,4 +1,4 @@
-StackOverflow close votes review queue shortcuts
+StackOverflow close votes shortcuts
 ================================================
 
 A [Tampermonkey] script to add keyboardd hotkeys to StackOverflow's close votes review queue.
