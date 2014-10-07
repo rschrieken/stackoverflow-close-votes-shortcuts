@@ -1,11 +1,13 @@
 // ==UserScript==
-// @name         StackOverflow close votes review queue keyboard shortcuts
-// @namespace    http://stackoverflow.com/review/
-// @version      0.4
-// @description  A script to add keyboard hotkey support to StackOverflow's close votes review queue
-// @author       Albireo
-// @match        http://stackoverflow.com/review/close*
-// @grant        none
+// @version     0.4
+// @name        StackOverflow close votes shortcuts
+// @author      Albireo
+// @description A script to add keyboard shortcuts to StackOverflow's close votes review queue
+// @homepage    https://github.com/kappa7194/stackoverflow-close-votes-shortcuts
+// @updateURL   https://raw.githubusercontent.com/kappa7194/stackoverflow-close-votes-shortcuts/master/script.js
+// @downloadURL https://raw.githubusercontent.com/kappa7194/stackoverflow-close-votes-shortcuts/master/script.js
+// @match       http://stackoverflow.com/review/close*
+// @grant       none
 // ==/UserScript==
 
 (function () {
