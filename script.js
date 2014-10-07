@@ -107,7 +107,7 @@
                 break;
         }
     };
-	var actionHandler = function (e) {
+    var actionHandler = function (e) {
         switch (e.keyCode) {
             case 49: // 1 - Leave Open
                 $('.review-actions [value="Leave Open"]').click();
@@ -124,6 +124,6 @@
                 $('.review-actions [value="Skip"]').click();
                 break;
         }
-	};
-	$(document).on('keyup', actionHandler);
+    };
+    $(document).on('keyup', actionHandler);
 })();
