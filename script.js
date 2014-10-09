@@ -153,17 +153,22 @@
 		}
 	}
     $(document).on('keyup', function (e) {
-		switch (e.keyCode) {
-		case 13: // ENTER - Vote
-			close();
-			state = 0;
-			break;
-		case 27: // ESC - Close Dialog
-			state = 0;
-			break;
-		default:
-			handleStates(e); // select correct handler based on state
-			break;
+	    console.log(e);
+		// prevent keying in the filter to trip the handling
+		if (e.srcElement.className !== 'review-filter-tags ac_input') {
+		    console.log('handle');
+			switch (e.keyCode) {
+			case 13: // ENTER - Vote
+				close();
+				state = 0;
+				break;
+			case 27: // ESC - Close Dialog
+				state = 0;
+				break;
+			default:
+				handleStates(e); // select correct handler based on state
+				break;
+			}
 		}
 	});
 }());
